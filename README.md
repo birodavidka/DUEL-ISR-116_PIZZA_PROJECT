@@ -9,6 +9,7 @@ neptun: tuxolp
 
 Egy egyszerű grafikus felülettel rendelkező pizza rendelő alkalmazás, amely lehetővé teszi pizzák összeállítását, árkalkulációt és a rendelések mentését.
 
+
 ## Alkalmazott modul:
 
 `customtkinter`:
@@ -277,4 +278,16 @@ Elmenti az összes rendelést egy JSON fájlba, szépen formázva és magyar kar
 5. **Mentés:** A rendelés elmenti JSON-ba és megjelenik a listában
 6. **Megjelenítés:** `bd_pizza_card.py` megjeleníti a mentett pizzát
 
+## Ismert hiba
+
+ha a felhasználó nem kattint a mentés listába gombra és nem számolja újra
+az árat, akkor a program az előző pizza beállításainak árát használja
+
+## Screenshots 
+### 1. példa - előző ár marad 
+![Bug 1] (/assets/screenshots/bug0.png)
+### 2.példa - méretváltás után a rossz ár marad.
+![Bug 1] (/assets/screenshots/bug1.png)
+
 ---
+

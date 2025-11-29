@@ -1,38 +1,22 @@
 [
   {
-    "size": "Közepes",
+    "size": "Kicsi",
     "toppings": [
       "Sajt"
     ],
-    "price": 2900
+    "price": 2300
+  },
+  {
+    "size": "Közepes",
+    "toppings": [
+      "Sajt",
+      "Sonka"
+    ],
+    "price": 3350
   },
   {
     "size": "Nagy",
-    "toppings": [
-      "Sajt",
-      "Kukorica",
-      "Csípős szósz"
-    ],
-    "price": 3950
-  },
-  {
-    "size": "Kicsi",
-    "toppings": [
-      "Sajt",
-      "Sonka",
-      "Kukorica",
-      "Csípős szósz"
-    ],
-    "price": 3950
-  },
-  {
-    "size": "Kicsi",
-    "toppings": [
-      "Sajt",
-      "Sonka",
-      "Kukorica",
-      "Csípős szósz"
-    ],
-    "price": 3200
+    "toppings": [],
+    "price": 3350
   }
 ]
