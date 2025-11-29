@@ -278,16 +278,15 @@ Elmenti az összes rendelést egy JSON fájlba, szépen formázva és magyar kar
 5. **Mentés:** A rendelés elmenti JSON-ba és megjelenik a listában
 6. **Megjelenítés:** `bd_pizza_card.py` megjeleníti a mentett pizzát
 
-## Ismert hiba
+## Ismert hiba – ár frissítési probléma
 
-ha a felhasználó nem kattint a mentés listába gombra és nem számolja újra
-az árat, akkor a program az előző pizza beállításainak árát használja
+Ha a felhasználó nem számítja ki külön az árat a "Mentés listába" gomb megnyomása előtt,
+akkor a program az előző pizza árát használja. Az alábbi példák ezt szemléltetik:
 
-## Screenshots 
-### 1. példa - előző ár marad 
-![Bug 1] (/assets/screenshots/bug0.png)
-### 2.példa - méretváltás után a rossz ár marad.
-![Bug 1] (/assets/screenshots/bug1.png)
+<p align="center">
+  <img src="assets/screenshots/bug0.png" width="45%">
+  <img src="assets/screenshots/bug1.png" width="45%">
+</p>
 
 ---
 
