@@ -1,0 +1,17 @@
+#PYTHOn
+--pycache__/
+
+#VENV
+venv/
+env/
+.venv
+
+#IDE
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
+
+.env
+
