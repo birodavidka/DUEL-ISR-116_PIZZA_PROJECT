@@ -288,5 +288,9 @@ akkor a program az előző pizza árát használja. Az alábbi példák ezt szem
   <img src="assets/screenshots/bug1.png" width="45%">
 </p>
 
+### future plans
+
+logika megoldása
+
 ---
 
